@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<style>
+		img {
+			width: 300px;
+			height: 200px;
+		}
+		th {
+			font-size: 25px;
+		}
+		td {
+			font-size: 20px;
+		}
+	</style>
+
+	<title>Top Richest Athletes</title>
+</head>
+<body>
+	<!--Responsive Navigation-->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+		<a class="logo navbar-brand text-light" href="#">Top Athletes</a>
+
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse col-xl-3" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	</div><br><br><hr><br><br>
+
+	<!--Table Info-->
+	<table class="table table-bordered table-hover table-condensed">
+		<tr class="table-dark text-muted">
+			<th>Athlete</th>
+			<th>Description</th>
+			<th>Net Worth</th>
+		</tr>
+
+		<tr>
+			<td class="table-active text-muted"><img src="https://cdn.wealthygorilla.com/wp-content/uploads/2018/08/Richest-NBA-Players-Michael-Jordan.webp" class="rounded"><br>Michael Jordan</td>
+			<td class="table-dark">He is a former professional NBA-player and is currently working as a businessman. Most of his fortune now derives from endorsement deals with his biggest sponsor, ‘Nike’. Michael Jordan arguably the greatest NBA-player of all time.</td>
+			<td class="text-muted">$1.5 Billion</td>
+		</tr>
+
+		<tr>
+			<td class="table-active text-muted"><img src="https://cdn.wealthygorilla.com/wp-content/uploads/2018/08/Richest-NBA-Players-Junior-Bridgeman.webp" class="rounded"><br>Junior Bridgeman</td>
+			<td class="table-dark">He is a retired NBA-player from East Chicago. Currently, he now owns more than 160 outlets aside from the growing number of Chili’s restaurant with 118 branches and counting. In 1999 Bridgeman was elected to the Wisconsin Athletic ‘Hall of Fame’.</td>
+			<td class="text-muted">$600 Million</td>
+		</tr>
+
+		<tr>
+			<td class="table-active text-muted"><img src="https://cdn.wealthygorilla.com/wp-content/uploads/2018/08/Richest-NBA-Players-Magic-Johnson.webp" class="rounded"><br>Magic Johnson</td>
+			<td class="table-dark">He is a retired American professional NBA-player from Michigan. After Johnson announced that he had contracted HIV he became an entrepreneur. Johnson currently has partnerships with Starbucks, Fridays and 24 Hour Fitness.</td>
+			<td class="text-muted">$600 Million</td>
+		</tr>
+
+		<tr>
+			<td class="table-active text-muted"><img src="https://cdn.wealthygorilla.com/wp-content/uploads/2018/08/Richest-NBA-Players-LeBron-James.webp" class="rounded"><br>LeBron James</td>
+			<td class="table-dark">He is a professional NBA-player and entrepreneur from Akron, Ohio. James is mostly nicknamed “King James” and he currently plays for the Los Angeles of the NBA. LeBron was the star guard for the as NBA’s Cleveland Cavaliers until he left for LA as a free agent in 2019.</td>
+			<td class="text-muted">$440 Million Million</td>
+		</tr>
+	</table><br><br><hr><br><br>
+
+	<!--Survey-->
+	<h2 class="text-dark">Survey:</h2>
+	<form>
+		<div class="form-group"></div>
+			<input class="form-control" type="text" placeholder="Name:">
+		</div><hr>
+
+		<div class="form-check">
+			<label for="Selection">Personal Opinions:</label>
+			<select class="form-control" id="Selection">
+				<option>Agree</option>
+				<option>Disagree</option>
+				<option>Not enough</option>
+				<option>Fair</option>
+				<option>Other</option>
+			</select>
+		</div><hr>
+
+		<div class="form-group">
+    		<label for="Opinionbox">Final Thoughts:</label>
+    		<textarea class="form-control" id="Opinionbox" rows="3" placeholder="Type your opinions and other suggestions."></textarea>
+  		</div>
+
+		<button type="submit" class="btn btn-outline-primary btn-lg btn-block">Submit Form</button>
+		<button type="reset" class="btn btn-outline-danger btn-lg btn-block">Reset Form</button>
+	</form>
+</body>
+</html>
